@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class OrderItem implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
-	@EmbeddedId
+	@EmbeddedId 
 	private OrdemItemPK id = new OrdemItemPK();
 	
 	private Integer quantity;
